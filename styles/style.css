@@ -38,7 +38,7 @@ main {
   width: 100%;
   height: auto;
   background-color: #ebeff2;
-  
+
 }
 
 h1 {
@@ -91,10 +91,6 @@ h1:hover {
   margin-bottom: 2rem;
 }
 
-.blog-container span {
-  text-align: start;
-}
-
 .image-container {
   display: flex;
   justify-content: center;
@@ -128,6 +124,8 @@ h1:hover {
   gap: 1.5rem;
 }
 
+
+
 .text-container h2:hover {
   transition: 0.5s;
   letter-spacing: 0.125rem;
@@ -144,6 +142,68 @@ h3 {
 
 .text-container p {
   cursor: pointer;
+}
+
+.story-wrapper {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+
+  background-color: #ebeff2;
+  margin-bottom: 2rem;
+}
+
+.story-container {
+  padding: 1.25rem;
+  align-items: start;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: auto;
+  gap: 1.5rem;
+  text-align: justify;
+  background-color: white;
+  color: #575353;
+  letter-spacing: 0.09rem;
+  word-break: normal;
+}
+
+.story-container a {
+  color: goldenrod;
+}
+
+.story-container p {
+  padding: 2rem;
+}
+
+.story-container span {
+  padding: 2rem;
+  color: #242222;
+}
+
+.story-container img {
+  width: 25rem;
+  height: auto;
+  flex-shrink: 0;
+  padding-bottom: 2rem;
+  padding: 2rem;
+}
+
+.pekarenka-pictures {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.pekarenka-pictures img {
+  padding: 1rem;
+  width: 25%;
+  height: auto;
 }
 
 footer {
