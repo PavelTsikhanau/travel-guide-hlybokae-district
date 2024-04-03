@@ -10,6 +10,10 @@
   color: #242222;
 }
 
+a {
+  text-decoration: none;
+}
+
 
 header {
   display: flex;
@@ -46,7 +50,7 @@ h1 {
 }
 
 h1:hover {
-  letter-spacing: 0.12rem;
+  letter-spacing: 0.15rem;
 }
 
 .add-note {
@@ -87,6 +91,10 @@ h1:hover {
   margin-bottom: 2rem;
 }
 
+.blog-container span {
+  text-align: start;
+}
+
 .image-container {
   display: flex;
   justify-content: center;
@@ -120,13 +128,22 @@ h1:hover {
   gap: 1.5rem;
 }
 
+.text-container h2:hover {
+  transition: 0.5s;
+  letter-spacing: 0.125rem;
+}
+
 h3 {
   color: #7f7f7fba;
   letter-spacing: 0.09rem;
 }
 
-h2 {
+.text-container h2 {
   letter-spacing: 0.09rem;
+}
+
+.text-container p {
+  cursor: pointer;
 }
 
 footer {
