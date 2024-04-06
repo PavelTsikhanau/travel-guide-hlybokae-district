@@ -47,7 +47,7 @@ main {
 h1 {
   padding: 2rem;
   letter-spacing: 0.1rem;
-  font-size: 3rem;
+  font-size: calc(2rem + 2 * (100vw - 320px) / 1120);
   cursor: pointer;
   text-align: center;
 }
@@ -86,7 +86,7 @@ h1:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 60vh;
+  max-width: 60vh;
   height: auto;
   padding: 3rem;
   background-color: white;
@@ -94,6 +94,7 @@ h1:hover {
 }
 
 .image-container {
+  width: 95%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -102,7 +103,7 @@ h1:hover {
 }
 
 .image-container img {
-  width: 60vh;
+  width: 100%;
   height: auto;
   flex-shrink: 0;
   transition: 0.8s;
