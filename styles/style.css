@@ -93,24 +93,28 @@ h1:hover {
   margin-bottom: 2rem;
 }
 
-.image-container {
-  width: 95%;
+.story-image {
+  width: 30rem;
+  height: auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   overflow: hidden;
   cursor: pointer;
+  
 }
 
-.image-container img {
+.story-image img {
   width: 100%;
   height: auto;
   flex-shrink: 0;
   transition: 0.8s;
   display: block;
+  padding: 2rem;
 }
 
-.image-container img:hover {
+.story-image img:hover {
   transform: scale(1.125);
 }
 
@@ -212,22 +216,11 @@ h3 {
   font-size: 19px;
 }
 
-.story-container img {
-  object-fit: cover;
-  width: 25rem;
-  height: auto;
-  flex-shrink: 0;
-  padding: 0 2rem;
-}
-
 .breakfast {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
-
-#panorama {}
-
-#zemlyaki {}
 
 .subtitle {
   padding: 2rem;
@@ -240,27 +233,19 @@ h3 {
 .fabrica {
   display: flex;
   flex-direction: row;
-
-  img {
-    width: 30%;
-    padding-top: 0;
-  }
-
-  p {
-    width: 60%;
-  }
-
-  div {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 60%;
-  }
+  flex-wrap: wrap;
 }
 
-#zavod-img {
-  width: 60%;
-  padding-top: 2rem;
+.degustation-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  flex-wrap: wrap;
+
+  img {
+    width: 25rem;
+  }
 }
 
 #autor {
@@ -271,7 +256,7 @@ h3 {
 }
 
 footer {
-  background-color: #ebeff2;
+  background-color: white;
   width: 100%;
   height: auto;
   display: flex;
@@ -282,13 +267,13 @@ footer {
 
 .footer-wrapper {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   width: 90%;
-  background-color: white;
+ 
   padding: 1.25rem;
 
   a {
     color: #0861a0;
   }
-
 }
