@@ -1,3 +1,3 @@
 # travel-guide
 
- [travel giide] (https://paveltsikhanau.github.io/travel-guide-hlybokae-district/)
+ [travel guide](https://paveltsikhanau.github.io/travel-guide-hlybokae-district/)
