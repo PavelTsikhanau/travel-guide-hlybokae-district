@@ -60,24 +60,27 @@ h1:hover {
   letter-spacing: 0.15rem;
 }
 
-.add-note {
+.add-button {
+  margin-bottom: 2rem;
+}
+
+.add-button a {
+  cursor: pointer;
+  border: 1px solid #0861a0;
+  border-radius: 5px;
   height: auto;
-  color: #0861a0;
+  padding: 10px 10px 12px;
   background: #ebeff2;
   font-weight: 400;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
-  cursor: pointer;
-  border: 1px solid #0861a0;
-  border-radius: 5px;
-  padding: 10px 10px 12px;
-  margin-bottom: 2rem;
+  color: #0861a0;
   font-size: 18px;
-
 }
 
-.add-note:hover {
+
+.add-button a:hover {
   background: #0861a0;
   color: #ebeff2;
   border: 1px solid #0861a0;
